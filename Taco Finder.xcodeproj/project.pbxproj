@@ -12,6 +12,11 @@
 		83C3FDB51CED1A9F008B1BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB31CED1A9F008B1BE0 /* Main.storyboard */; };
 		83C3FDB71CED1A9F008B1BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB61CED1A9F008B1BE0 /* Assets.xcassets */; };
 		83C3FDBA1CED1A9F008B1BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB81CED1A9F008B1BE0 /* LaunchScreen.storyboard */; };
+		8425EAE51DA7D11A004028E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3FDB11CED1A9F008B1BE0 /* ViewController.swift */; };
+		8425EAE61DA7D11A004028E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3FDAF1CED1A9F008B1BE0 /* AppDelegate.swift */; };
+		8425EAE91DA7D11A004028E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB81CED1A9F008B1BE0 /* LaunchScreen.storyboard */; };
+		8425EAEA1DA7D11A004028E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB61CED1A9F008B1BE0 /* Assets.xcassets */; };
+		8425EAEB1DA7D11A004028E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C3FDB31CED1A9F008B1BE0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,19 @@
 		83C3FDB61CED1A9F008B1BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C3FDB91CED1A9F008B1BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C3FDBB1CED1A9F008B1BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425EAF01DA7D11A004028E6 /* Taco Finder 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taco Finder 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425EAF11DA7D11A004028E6 /* Taco Finder copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Taco Finder copy-Info.plist"; path = "/Volumes/buddybuild/git/TacoFinder/Taco Finder copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		83C3FDA91CED1A9E008B1BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425EAE71DA7D11A004028E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +54,7 @@
 			children = (
 				83C3FDAE1CED1A9F008B1BE0 /* Taco Finder */,
 				83C3FDAD1CED1A9E008B1BE0 /* Products */,
+				8425EAF11DA7D11A004028E6 /* Taco Finder copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				83C3FDAC1CED1A9E008B1BE0 /* Taco Finder.app */,
+				8425EAF01DA7D11A004028E6 /* Taco Finder 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +100,23 @@
 			productReference = 83C3FDAC1CED1A9E008B1BE0 /* Taco Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8425EAE31DA7D11A004028E6 /* Taco Finder 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425EAEC1DA7D11A004028E6 /* Build configuration list for PBXNativeTarget "Taco Finder 2" */;
+			buildPhases = (
+				8425EAE41DA7D11A004028E6 /* Sources */,
+				8425EAE71DA7D11A004028E6 /* Frameworks */,
+				8425EAE81DA7D11A004028E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taco Finder 2";
+			productName = "Taco Finder";
+			productReference = 8425EAF01DA7D11A004028E6 /* Taco Finder 2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -113,6 +146,7 @@
 			projectRoot = "";
 			targets = (
 				83C3FDAB1CED1A9E008B1BE0 /* Taco Finder */,
+				8425EAE31DA7D11A004028E6 /* Taco Finder 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +162,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8425EAE81DA7D11A004028E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425EAE91DA7D11A004028E6 /* LaunchScreen.storyboard in Resources */,
+				8425EAEA1DA7D11A004028E6 /* Assets.xcassets in Resources */,
+				8425EAEB1DA7D11A004028E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +181,15 @@
 			files = (
 				83C3FDB21CED1A9F008B1BE0 /* ViewController.swift in Sources */,
 				83C3FDB01CED1A9F008B1BE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425EAE41DA7D11A004028E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425EAE51DA7D11A004028E6 /* ViewController.swift in Sources */,
+				8425EAE61DA7D11A004028E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +375,42 @@
 			};
 			name = Staging;
 		};
+		8425EAED1DA7D11A004028E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Taco Finder copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tacofinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TACO_DISPLAY_NAME = "Taco Finder";
+			};
+			name = Debug;
+		};
+		8425EAEE1DA7D11A004028E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Taco Finder copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tacofinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TACO_DISPLAY_NAME = "Taco Finder";
+			};
+			name = Release;
+		};
+		8425EAEF1DA7D11A004028E6 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
+				INFOPLIST_FILE = "Taco Finder copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buddybuild.tacofinder-staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TACO_DISPLAY_NAME = "Taco Staging";
+			};
+			name = Staging;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +432,17 @@
 				83C3FDC21CED1CE9008B1BE0 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425EAEC1DA7D11A004028E6 /* Build configuration list for PBXNativeTarget "Taco Finder 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425EAED1DA7D11A004028E6 /* Debug */,
+				8425EAEE1DA7D11A004028E6 /* Release */,
+				8425EAEF1DA7D11A004028E6 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
