@@ -1,0 +1,1 @@
+echo $BUDDYBUILD_BRANCH
